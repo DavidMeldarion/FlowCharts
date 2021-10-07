@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T16:27:17.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="B-Up_i6hpvO1zpaNcNMI" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:31:23.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="eBjpLj3cFnc3b0cBIAEf" version="15.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2041" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,10 +127,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-27" value="Is dealer cards&lt;br&gt;&amp;gt;=17" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="605" y="680" width="100" height="100" as="geometry" />
+          <mxGeometry x="725" y="680" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-30" value="&lt;b&gt;Deal&lt;/b&gt; card to dealer until total is &amp;gt;=17" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="880" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-35" target="T1tBva81fQfY2rR0bvwv-38">
           <mxGeometry relative="1" as="geometry" />
@@ -157,16 +157,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-35" value="Is Player hand &amp;gt; Dealer" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="580" y="820" width="150" height="110" as="geometry" />
+          <mxGeometry x="700" y="820" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-38" value="Game Over. Player wins." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="800" y="845" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-41" value="Game Over. Draw." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="595" y="1035" width="120" height="60" as="geometry" />
+          <mxGeometry x="715" y="1035" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-44" value="Game over. Dealer wins" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-47" target="T1tBva81fQfY2rR0bvwv-48">
           <mxGeometry relative="1" as="geometry" />
@@ -174,13 +174,8 @@
         <mxCell id="T1tBva81fQfY2rR0bvwv-47" value="&lt;b&gt;Deal&lt;/b&gt;&amp;nbsp;1 card face up to the player." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="680" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-48" target="T1tBva81fQfY2rR0bvwv-50">
+        <mxCell id="T1tBva81fQfY2rR0bvwv-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-70" target="T1tBva81fQfY2rR0bvwv-50">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-52" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-51">
-          <mxGeometry x="-0.2571" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-48" target="T1tBva81fQfY2rR0bvwv-56">
           <mxGeometry relative="1" as="geometry" />
@@ -194,7 +189,7 @@
           <mxGeometry x="80" y="760" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-50" value="Game over!&lt;br&gt;Bust!&lt;br&gt;Dealer Wins." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="250" y="780" width="120" height="60" as="geometry" />
+          <mxGeometry x="420" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-56" target="T1tBva81fQfY2rR0bvwv-59">
           <mxGeometry relative="1" as="geometry" />
@@ -231,6 +226,26 @@
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-66" value="Game Over. Draw." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-80" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-70" target="T1tBva81fQfY2rR0bvwv-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-70" value="Is one of the cards an 11?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-48" target="T1tBva81fQfY2rR0bvwv-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="810" as="sourcePoint" />
+            <mxPoint x="380" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-72" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-71">
+          <mxGeometry x="-0.2571" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-73" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="890" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
