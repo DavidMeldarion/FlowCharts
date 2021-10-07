@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T14:06:33.838Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="MmRXh-Ie1rsTKy8QlZzw" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T14:16:47.085Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Yd5eQ_q8Z5_Ui5GU5lz6" version="15.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1214" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,8 +115,58 @@
         <mxCell id="T1tBva81fQfY2rR0bvwv-19" value="Ask Player;&lt;br&gt;Stand or Hit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="550" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="680" width="120" height="60" as="geometry" />
+        <mxCell id="T1tBva81fQfY2rR0bvwv-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-27" target="T1tBva81fQfY2rR0bvwv-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-32" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-31">
+          <mxGeometry x="-0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-27" target="T1tBva81fQfY2rR0bvwv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-27" value="Is dealer card&lt;br&gt;&amp;gt;=17" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="680" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-30" value="Deal card to dealer until total is &amp;gt;=17" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-35" target="T1tBva81fQfY2rR0bvwv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-40" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-39">
+          <mxGeometry x="-0.2286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-35" target="T1tBva81fQfY2rR0bvwv-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-43" value="Equal to dealer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-42">
+          <mxGeometry x="-0.219" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-35" target="T1tBva81fQfY2rR0bvwv-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-46" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-45">
+          <mxGeometry x="-0.0105" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-35" value="Is Player hand &amp;gt; Dealer" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="820" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-38" value="Game Over. Player wins." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="845" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-41" value="Game Over. Draw." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="475" y="1035" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-44" value="Game over. Dealer wins" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="950" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
