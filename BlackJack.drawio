@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T16:34:46.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Cpt_td0a_iAcsXp6NeL9" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:35:24.328Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="PabtrrOOOXNMNQdeFMxo" version="15.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2041" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,11 +239,19 @@
         <mxCell id="T1tBva81fQfY2rR0bvwv-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-77" target="T1tBva81fQfY2rR0bvwv-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-82" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T1tBva81fQfY2rR0bvwv-81">
+          <mxGeometry x="-0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-77" value="Is there an 11 in the player&#39;s hand?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-130" y="745" width="130" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="T1tBva81fQfY2rR0bvwv-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-80" target="T1tBva81fQfY2rR0bvwv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-80" value="Change the 11 to a 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-125" y="990" width="120" height="60" as="geometry" />
+          <mxGeometry x="-125" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
