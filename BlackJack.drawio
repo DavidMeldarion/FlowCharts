@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T16:16:10.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="8_jPpqGVK7QaMfuKwaUo" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-07T16:18:41.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Jq8Cn_9p-jtyBISyw2T9" version="15.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1214" dy="1128" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,10 +38,10 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Does the player have a natural 21?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="340" y="400" width="120" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-0" value="Deal 2 cards face up to the player." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T1tBva81fQfY2rR0bvwv-0" value="&lt;b&gt;Deal&lt;/b&gt; 2 cards face up to the player." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="110" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-1" value="Deal 1 card face up and 1 card face down to the dealer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T1tBva81fQfY2rR0bvwv-1" value="&lt;b&gt;Deal&lt;/b&gt; 1 card face up and 1 card face down to the dealer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="170" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-3">
@@ -129,7 +129,7 @@
         <mxCell id="T1tBva81fQfY2rR0bvwv-27" value="Is dealer card&lt;br&gt;&amp;gt;=17" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="485" y="680" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="T1tBva81fQfY2rR0bvwv-30" value="Deal card to dealer until total is &amp;gt;=17" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="T1tBva81fQfY2rR0bvwv-30" value="&lt;b&gt;Deal&lt;/b&gt; card to dealer until total is &amp;gt;=17" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="640" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T1tBva81fQfY2rR0bvwv-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T1tBva81fQfY2rR0bvwv-35" target="T1tBva81fQfY2rR0bvwv-38">
